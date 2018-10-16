@@ -1,4 +1,4 @@
-def my_collect(collection)
+def my_collect(collection, block)
   i = 0 
     while i < collection.length 
       yield(collection[i])
