@@ -6,5 +6,8 @@ def my_collect(collection)
       i += 1 
     end
     collection
+  else
+    return "No block given"
+  end
 end
 
